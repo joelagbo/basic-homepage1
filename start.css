@@ -1,0 +1,152 @@
+*
+body { background-color:  hsl(120,50%,37%)
+    
+    
+}
+/*
+img {transform: translate(50px,40%);
+position: relative}
+
+*/
+.logo{
+    margin-top: 80px;
+    margin: 0 auto;
+    -ms-margin: 0 auto;
+}
+
+
+.logo img{
+    margin-left: -20px !important;
+}
+
+form {
+height:420px;
+    width: 350px;
+/*    position: relative;*/
+/*    left: 10%;*/
+     background-color: hsl(120,20%,50%);
+    padding-left:10px;
+    padding-right: 10px;
+    margin: 0 auto;
+    
+}
+input {
+    height:10px;
+    width: 75%;
+    padding:10px;
+    padding-right: 10px
+}
+.login {
+    font-size: 30px;
+    color: white;
+    padding-top: 50px;
+    
+    
+}
+.remember { float: left;
+color: white;
+padding: 10px}
+h1 {color: white;
+text-align:center;
+font-weight: 200;
+/*    padding-top: 50px*/
+}
+.play {
+    display: flex;
+    color: white;
+    padding: 0;
+    margin: 0
+    
+}
+span {
+    background-color: skyblue;
+
+   width: 80px;
+    float: left
+
+}
+.forgot {padding:0px;
+line-height: 0px;
+color: white;
+float: left}
+.click {
+    color: white;
+    line-height: 0;
+    float: left
+}
+input {padding-left: 20px;
+position: relative;
+z-index: 1;
+margin: 7px}
+
+ i{
+    position:relative;
+    left: 0;
+    top: 8px;
+    top: 20px 20px;
+     transform: translate(200%, -40%);
+     
+     z-index: 2
+}
+.play {
+    float: left
+}
+.login-form{
+    margin: 0 auto;
+}
+
+.checkbox{
+    width: 5% !important;
+    padding-left: 20px !important;
+    padding-right: 1px !important;
+    margin-left: -110px !important;
+    height: 15px;
+}
+.chance{
+    position: relative;
+    right: -120px !important;
+    background-color: #32c5d2;
+    display: inline-block !important;
+    width: 50px;
+    text-decoration: none !important;
+    padding: 8px;
+    color: #fff;
+}
+form{
+    height: auto !important;
+    padding-bottom: 60px;
+}
+.password {
+    color: white
+}
+footer {
+    color: white
+}
+.rem {
+    color: white
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

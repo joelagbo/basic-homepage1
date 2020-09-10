@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html ng-app>
+  <head>
+    <title>projectx</title>
+    <meta name="viewport" content="width=device-width, initial-scale= 1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="start.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"
+      integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M"
+      crossorigin="anonymous"
+    />
+    <script src="start.js"></script>
+  </head>
+  <body class="center">
+    <div class="box">
+      <div class="logo">
+        <img src="jamb_s.png" />
+      </div>
+
+      <h1 class="CAPS">JAMB | Central Admission Processing System | CAPS</h1>
+    </div>
+    <div class="details">
+      <form method="POST" action="" id="form-element">
+        <p class="login">Login to your account</p>
+        <i class="fas fa-user" style="color: #ccc"></i>
+        <input
+          type="text"
+          name="username"
+          placeholder="username"
+          required
+          autofocus
+        /><br />
+        <i class="fas fa-lock" style="color: #ccc"></i>
+        <input
+          type="password"
+          name="password"
+          required
+          autofocus
+          placeholder="password"
+        />
+        <div class="t">
+          <p class="rem">
+            <label
+              ><input
+                checked
+                type="checkbox"
+                class="checkbox"
+                name="remember"
+                required
+                onclick="why()"
+              />Remember me</label
+            >
+            <input type="submit" class="chance" onclick="" value="Login" />
+            <input
+              type="text"
+              placeholder="your choice of food"
+              class="foodchoice"
+              ng-model="foodchoice"
+            />
+          </p>
+          <p>why do you like {{foodchoice}}</p>
+          <div class="password">
+            <p>Forgot your password?</p>
+            <p>Click <a href="#">here</a> to reset your password</p>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script>
+      setInterval(1000, function () {
+        console.log("a");
+      });
+    </script>
+    <footer>2020 Joint Admission and Matriculation Board (JAMB)</footer>
+  </body>
+</html>
